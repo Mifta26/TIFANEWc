@@ -1,0 +1,115 @@
+{
+  "settings": {
+    "name": "Site-07-28_1035",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "storem4",
+      "title": "StoreM4",
+      "styling": {
+        "primaryColor": "#a38dfd",
+        "secondaryColor": "#FE525B",
+        "successColor": "#b2ccd2",
+        "infoColor": "#1BA1E2",
+        "warningColor": "#82786E",
+        "dangerColor": "#879A9F",
+        "mainFont": "Poppins",
+        "display1Font": "Poppins",
+        "display1Size": 4.5,
+        "display2Font": "Poppins",
+        "display2Size": 3,
+        "display5Font": "Comfortaa",
+        "display5Size": 1.5,
+        "display7Font": "Comfortaa",
+        "display7Size": 1.1,
+        "display4Font": "Poppins",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "4.5.2",
+    "uniqCompNum": 1,
+    "versionPublish": "4.5.2"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "kenburns",
+            "theme": "boundary",
+            "slides": [
+              {
+                "image": "@ADDONS_PATH@/wowslider/assets/images/slide3.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@ADDONS_PATH@/wowslider/assets/images/slide3.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip3.jpg",
+                "title": "title 1",
+                "text": "text 1"
+              },
+              {
+                "image": "@ADDONS_PATH@/wowslider/assets/images/slide2.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@ADDONS_PATH@/wowslider/assets/images/slide2.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip2.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "active": true
+              },
+              {
+                "image": "@ADDONS_PATH@/wowslider/assets/images/slide1.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@ADDONS_PATH@/wowslider/assets/images/slide1.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip1.jpg",
+                "title": "title 3",
+                "text": "text 3"
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-0",
+          "_customHTML": "<section class=\"mbr-wowslider-container mbr-section mbr-section__container carousel slide mbr-section-nopadding mbr-wowslider-container--boundary\" data-ride=\"carousel\" data-keyboard=\"false\" data-wrap=\"true\" data-interval=\"false\" data-rv-view=\"310\" style=\"background-color: rgb(255, 255, 255);\">\n    <div class=\"mbr-wowslider\">\n        <div class=\"ws_images\">\n            <ul>\n                <li>\n                    \n                    <img border=\"0\" height=\"302\" src=\"https://2.bp.blogspot.com/-bnPbZsrosDA/Tt1J0yW1juI/AAAAAAAAAU4/bXKvxsD9a-U/s320/IMG_4266.JPG\" width=\"435\">\n                </li><li>\n                    \n                    <img border=\"10\" height=\"302\" src=\"https://2.bp.blogspot.com/-bnPbZsrosDA/Tt1J0yW1juI/AAAAAAAAAU4/bXKvxsD9a-U/s320/IMG_4266.JPG\" width=\"auto\">\n                </li><li>\n                    \n                    <img border=\"15\" height=\"480\" src=\"https://2.bp.blogspot.com/-bnPbZsrosDA/Tt1J0yW1juI/AAAAAAAAAU4/bXKvxsD9a-U/s320/IMG_4266.JPG\" width=\"435\">\n                </li>\n            </ul>\n        </div>\n        <div class=\"ws_bullets\">\n            <div>\n                <a href=\"#\" title=\"\">\n                    <span><img alt=\"slide1\" src=\"@PROJECT_PATH@/assets/images/tooltip3.jpg\"></span>\n                </a><a href=\"#\" title=\"\">\n                    <span><img alt=\"slide1\" src=\"@PROJECT_PATH@/assets/images/tooltip2.jpg\"></span>\n                </a><a href=\"#\" title=\"\">\n                    <span><img alt=\"slide1\" src=\"@PROJECT_PATH@/assets/images/tooltip1.jpg\"></span>\n                </a>\n            </div>\n        </div>\n        <div class=\"ws_shadow\"></div>\n        <div class=\"mbr-wowslider-options\">\n            <div class=\"params\" data-paddingbottom=\"0\" data-anim-type=\"kenburns\" data-theme=\"boundary\" data-autoplay=\"true\" data-paddingtop=\"0\" data-fullscreen=\"true\" data-showbullets=\"false\" data-timeout=\"2\" data-duration=\"2\" data-height=\"576\" data-width=\"1024\" data-responsive=\"1\" data-showcaptions=\"false\" data-captionseffect=\"slide\" data-hidecontrols=\"false\"></div>\n        </div>\n</div></section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
+        }
+      ]
+    }
+  }
+}
